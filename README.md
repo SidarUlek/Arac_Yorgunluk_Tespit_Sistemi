@@ -159,4 +159,26 @@ Eğer gerekli kütüphaneler yüklü değilse aşağıdaki komutla yüklenebilir
 pip install numpy matplotlib scikit-fuzzy scipy networkx
 
 ```
-- Arayüz sade tutulmuştur ve sezgiseldir. İleri geliştirme olarak kullanıcı verilerini kaydetme, sesli uyarı sistemi veya gerçek zamanlı sensör bağlantısı eklenebilir.
+- Arayüz sade tutulmuştur ve sezgiseldir.
+
+# 🚀 Projeyi Çalıştırma
+Aşağıdaki adımları takip ederek projeyi bilgisayarınıza indirip çalıştırabilirsiniz:
+- Projeyi GitHub'dan klonla
+```python
+
+git clone https://github.com/SidarUlek/Arac_Yorgunluk_Tespit_Sistemi.git
+
+```
+- Proje klasörüne geç
+```python
+
+cd Arac_Yorgunluk_Tespit_Sistemi
+
+```
+
+- Programı çalıştır
+```python
+
+python main.py
+
+```
