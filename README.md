@@ -153,10 +153,10 @@ pencere.mainloop()
 
 
 # 📝 Notlar
-- ```python scikit-fuzzy ```  kütüphanesi yüklü değilse aşağıdaki komutla yüklenebilir:
+Eğer gerekli kütüphaneler yüklü değilse aşağıdaki komutla yüklenebilir:
 ```python
 
-pip install scikit-fuzzy
+pip install numpy matplotlib scikit-fuzzy scipy networkx
 
 ```
 - Arayüz sade tutulmuştur ve sezgiseldir. İleri geliştirme olarak kullanıcı verilerini kaydetme, sesli uyarı sistemi veya gerçek zamanlı sensör bağlantısı eklenebilir.
