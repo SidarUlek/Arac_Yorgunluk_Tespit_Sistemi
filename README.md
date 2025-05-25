@@ -1,6 +1,26 @@
 # 🛑 Araç Yorgunluk Tespit ve Uyarı Sistemi
 Bu proje, sürücü yorgunluğunu tahmin etmek ve mola önerisinde bulunmak için bulanık mantık (fuzzy logic) ve kullanıcı dostu bir arayüz kullanır. Sistem; göz kırpma hızı, direksiyon hareketleri, sürüş süresi, araç içi sıcaklık ve müzik seviyesi gibi parametreleri değerlendirir.
 
+# 💤 Özellikler
+### Girdi Değişkenleri (5 adet):
+- Göz Kırpma Hızı (Hz)
+- Direksiyon Hareketi Sıklığı (/dk)
+- Sürüş Süresi (dk)
+- Araç İçi Sıcaklık (°C)
+- Müzik Seviyesi (0–100)
+### Çıktı Değişkenleri (2 adet):
+- Uyarı Düzeyi (%0–%100)
+- Mola Önerisi (Evet / Hayır)
+### Kurallar:
+- Sistem 10’dan fazla bulanık mantık kuralı içerir.
+### Grafikler:
+- Girdi ve çıktı değişkenlerine ait üyelik fonksiyonları ayrı bir pencerede grafiksel olarak gösterilir.
+### Kural Görüntüleme:
+- Tüm bulanık mantık kuralları ayrı bir pencerede metin olarak kullanıcıya sunulur.
+### Kullanıcı Arayüzü:
+- Tkinter ile geliştirilmiş, kullanıcı dostu ve modern bir pencere arayüzüne sahiptir.
+- Girdi değerleri slider (kaydırmalı çubuk) ile girilir, sonuçlar bilgi kutusunda gösterilir.
+
 # 🔧 Kullanılan Teknolojiler
 - Python
 - Tkinter (GUI)
